@@ -1,4 +1,4 @@
-n = int(input("Enter n").strip())
+n = int(input().strip())
 grades = []
 
 def round_grades(original_grades):
@@ -8,7 +8,7 @@ def round_grades(original_grades):
             original_grades[each] += (5-rem)
 
 for grades_i in range(n):
-    grades_t  = int(input("Enter grade").strip())
+    grades_t  = int(input().strip())
     grades.append(grades_t)
 
 round_grades(grades)
