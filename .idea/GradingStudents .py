@@ -4,7 +4,7 @@ grades = []
 def round_grades(original_grades):
     for each in range(len(original_grades)):
         rem = original_grades[each]%5
-        if (rem >= 3) and (original_grades[each]>=38):
+        if (rem >= 3) and (original_grades[each] >= 38):
             original_grades[each] += (5-rem)
 
 for grades_i in range(n):
