@@ -13,3 +13,6 @@ apples = sum(map(check_apple, distance_apple))
 print(apples)
 oranges = sum(map(check_orange, distance_orange))
 print(oranges)
+
+yo = [False, True, True]
+print(sum(yo))
