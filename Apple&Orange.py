@@ -9,7 +9,9 @@ def check_apple(x):
 
 def check_orange(x):
     return ((x+b>=s)and (x+b<=t))
+
 apples = sum(map(check_apple, distance_apple))
 print(apples)
+
 oranges = sum(map(check_orange, distance_orange))
 print(oranges)
