@@ -16,5 +16,4 @@ while x <= min(b):
     else:
         pass
     x += 1
-
 print(count)
