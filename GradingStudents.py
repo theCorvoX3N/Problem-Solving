@@ -1,3 +1,7 @@
+import time
+
+start_time = time.time()
+
 n = int(input().strip())
 grades = []
 
@@ -15,3 +19,5 @@ round_grades(grades)
 
 for each in grades:
     print(each)
+
+print("time elapsed: {:.2f}s".format(time.time() - start_time))
