@@ -2,10 +2,6 @@
 #  - Algorithms > Implementation > Breaking the Records
 # 14/12/17
 
-import time
-start_time = time.time()
-
-
 n = int(input())
 scores = list(map(int, input().strip().split(" ")))
 
@@ -33,5 +29,4 @@ def check_least(score):
 
 print(sum(list(map(check_most, scores))), end=' ')
 print(sum(list(map(check_least, scores))))
-print("time elapsed: {:.2f}s".format(time.time() - start_time))
 
