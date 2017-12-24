@@ -10,13 +10,13 @@ total = 0
 
 for i in range(n):
     for j in range(m):
-        if total < (keyboardPrices[i] + usbPrices[j]):
-            print("%d < keyboard%d + usb%d"%(total, keyboardPrices[i],usbPrices[j]))
-            total = keyboardPrices[i] + usbPrices[j]
+        cost = keyboardPrices[i] + usbPrices[j]
+        if total < cost and cost <=s:
+            total = cost
         else:
             pass
 
-if not(total):
+if total:
     print(total)
 else:
     print(-1)
