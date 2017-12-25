@@ -9,8 +9,6 @@ scores = list(map(int, input().strip().split(" ")))
 most = int(scores[0])
 least = int(scores[0])
 
-
-
 def check_most(score):
     global most
     if score > most:
