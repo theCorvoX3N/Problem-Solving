@@ -2,11 +2,13 @@
 #  - Algorithms > Implementation > Breaking the Records
 # 14/12/17
 
+import math
 n = int(input())
 scores = list(map(int, input().strip().split(" ")))
 
 most = int(scores[0])
 least = int(scores[0])
+
 
 
 def check_most(score):
